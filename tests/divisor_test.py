@@ -1,6 +1,6 @@
 from unittest import TestCase, main
 import doctest
-from Lesson import divisor
+from lesson import divisor
 def load_tests(loader,tests,ignore):
     tests.addTests(doctest.DocTestSuite(divisor)) # дополняет тесты - doctest из divisor
     return tests
