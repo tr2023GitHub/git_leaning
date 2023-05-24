@@ -28,4 +28,3 @@ def calculator(expression):
 
 if __name__=='__main__':
      print(calculator('10/5'))
-     pass
