@@ -1,5 +1,5 @@
 from unittest import TestCase, main
-from lesson.calculator import calculator
+from lessons.calculator import calculator
 class CalculationTest(TestCase):
    def test_plus(self):
        self.assertEqual(calculator('2+2'),4)

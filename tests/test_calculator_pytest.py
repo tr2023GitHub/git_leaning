@@ -1,6 +1,6 @@
 import pytest
 
-from lesson.calculator import calculator
+from lessons.calculator import calculator
 def test_plus():
    assert  calculator('2+2') == 4
 def test_no_signs():
