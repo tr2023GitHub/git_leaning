@@ -1,5 +1,6 @@
 from unittest import TestCase, main
-from lessons.calculator import calculator
+__package__='lessons'
+from .calculator import calculator
 
 
 class CalculationTest(TestCase):
