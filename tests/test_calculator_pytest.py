@@ -1,5 +1,5 @@
 import pytest
-
+__package__='lessons'
 from .calculator import calculator
 def test_plus():
    assert  calculator('2+2') == 4
