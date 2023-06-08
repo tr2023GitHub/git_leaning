@@ -1,3 +1,7 @@
+# написать функцию caalculator? которая принимет на вход строеу, содержащую два целых числа
+# и один знак арифметический
+# операции + - / *  возвращает результат выполнения этой операции. Если числа не целые или нет знака операции то
+# бросать исключение ValueError
 def calculator(expression):
     allowed='+-/*'
     if not any(sing in expression for sing in allowed):
@@ -27,4 +31,4 @@ def calculator(expression):
                raise ValueError ('Выражение должно содержать 2 целых числа и 1 знак действия')
 
 if __name__=='__main__':
-     print(calculator('10/5'))
+     print(calculator('10.5'))
